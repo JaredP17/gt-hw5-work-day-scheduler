@@ -1,16 +1,29 @@
 // VARIABLES
-const m = moment();
-var currentDay = m.format(("dddd, MMMM Do"));
+var now = moment();
+var currentDay = now.format("dddd, MMMM Do");
+var currentHour = now.format("hA");
+const businessHours = {
+  start: 9, // 9 AM
+  end: 17, // 5 PM
+};
 
-// QUERIES
+// FUNCTIONS DEFINTIONS
+function populateTimeBlocks() {
+  for (var i = businessHours.start; i <= businessHours.end; i++) {
+    
+    console.log(moment(i, "H").format("hA"));
+  }
+}
+
+// DOM MANIPULATION AND FUNCTION CALLS
 $("#currentDay").text(currentDay);
-
-// FUNCTIONS
-
-// FUNCTION CALLS
+populateTimeBlocks();
 
 // EVENT LISTENERS
 
 // LOGS
-console.log(m);
+console.log(now);
 console.log(currentDay);
+console.log(currentHour);
+var m = moment(9, "H").format("hA");
+console.log(m);
