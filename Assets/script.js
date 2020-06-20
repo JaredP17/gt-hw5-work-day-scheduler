@@ -23,17 +23,11 @@ function populateTimeBlocks() {
     }
 
     container.append(
-      '<div class="row timeblock">' +
-        '<div class="col-1 hour">' +
-        hour +
-        "</div>" +
-        '<textarea class="col-10 description ' +
-        state +
-        '" id="' +
-        i +
-        '"></textarea>' +
-        '<button class="col-1 btn saveBtn"><i class="fas fa-save"></i></button>' +
-        "</div>"
+      `<div class="row timeblock">
+      <div class="col-1 hour">${hour}</div>
+      <textarea class="col-10 description ${state}" id="${i}"></textarea>
+      <button class="col-1 btn saveBtn"><i class="fas fa-save"></i></button>
+      </div>`
     );
   }
 }
