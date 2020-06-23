@@ -1,5 +1,5 @@
 # Work Day Scheduler
-A simple calendar application that allows the user to save events for each hour of the day. This app will run in the browser and feature dynamically updated HTML and CSS powered by jQuery.
+A simple calendar application that allows the user to save events for each hour of the work day. This app will run in the browser and feature dynamically updated HTML and CSS powered by jQuery.
 
 Check out the deployable site here: [Work Day Scheduler](https://jaredp17.github.io/gt-hw5-work-day-scheduler/).
 
@@ -7,11 +7,11 @@ Check out the deployable site here: [Work Day Scheduler](https://jaredp17.github
 
 1. Clone the repo or open deployable site.
    - Open index.html in default browser (if cloned).
-2. Take the quiz. Log your score.
+2. Enter to-does into the time slots. Click save button to save to-do.
 
 ## Preview
 
-The following GIF demonstrates the application functionality: *comming soone*
+The following GIF demonstrates the application functionality: *comming soon*
 <!-- ![Standalone](./Assets/weather_dashboard.gif) -->
 
 ## Credits
